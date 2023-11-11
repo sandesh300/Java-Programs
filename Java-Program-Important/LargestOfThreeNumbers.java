@@ -1,4 +1,4 @@
-public class LArgestOfThreeNumbers 
+public class LargestOfThreeNumbers 
 {
 public static void main(String[] args) {
 	
