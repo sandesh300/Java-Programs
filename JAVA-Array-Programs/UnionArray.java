@@ -1,3 +1,5 @@
+// Union oftwo array
+
 import java.util.Arrays;
 
 public class UnionArray {
