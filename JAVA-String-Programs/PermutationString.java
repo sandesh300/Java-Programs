@@ -1,44 +1,31 @@
+// Print all permutations of a string in Java
 
 public class PermutationString {
 
-	public static String swapString(String a, int i, int j)
-	{
-		char b[]=a.toCharArray();
-		char ch;
-		ch=b[i];
-		b[i]=b[j];
-		b[j]=ch;
+	static void printPermutn(String str, String ans) {
 		
-		return String.valueOf(b);
-	}
-	
-	
-	public static void main(String[] args) 
-	{
-		String str="SANDY";
-		int len=str.length();
-		System.out.println("All the permutations are = ");
-		generatePermutation(str, 0, len);
-	}
-	public static void generatePermutation(String str, int start, int end)
-	{
-		if(start == end-1)
-		{
-			System.out.println(str);
-		}
-		else
-		{
-			for(int i=start; i<end; i++)
+		if (str.length() == 0)    //if the length of the input string str becomes 0, it means that all characters have been used to form a permutation. In this case, it prints the current permutation ans and returns.
 			{
-				str=swapString(str, start, i);    //Swapping the string
-				
-				generatePermutation(str, start+1, end);   //recursively calling the function 
-				
-				str=swapString(str, start, i);          //backtracking and swapping the character
-			}
+		    System.out.println(ans + " ");
+		  	return;
+		    }
+
+		for (int i = 0; i < str.length(); i++) {
+
+			// ith character of str
+			char ch = str.charAt(i);
+
+			// Rest of the string after excluding the ith character
+			String values = str.substring(0, i) +
+					str.substring(i + 1);
+
+			// Recursive call
+			printPermutn(values, ans + ch);
 		}
-		
-		
-		
+	}
+
+	public static void main(String[] args) {
+		String s = "sandy";
+		printPermutn(s, "");
 	}
 }
