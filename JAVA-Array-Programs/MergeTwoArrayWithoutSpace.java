@@ -1,47 +1,69 @@
 // Merge two Sorted Arrays Without Extra Space
 
+import java.util.*;
+
 public class MergeTwoArrayWithoutSpace {
 
-    static void mergeArrays(int[] arr1, int[] arr2) {
-        int n1 = arr1.length;
-        int n2 = arr2.length;
+    public static void merge(long[] arr1, long[] arr2, int n, int m) {
 
-        // Iterate through all elements of arr2
-        for (int i = n2 - 1; i >= 0; i--) {
-            int last = arr1[n1 - 1];
-            int j;
+        // Declare a 3rd array and 2 pointers:
+        long[] arr3 = new long[n + m];
+        int left = 0;
+        int right = 0;
+        int index = 0;
 
-            /*
-             * Find the smallest element greater than arr2[i].
-             * Move all elements one position ahead till the smallest greater
-             * element is not found
-             */
-            for (j = n1 - 2; j >= 0 && arr1[j] > arr2[i]; j--) {
-                arr1[j + 1] = arr1[j];
+        // Insert the elements from the 2 arrays
+        // into the 3rd array using left and right
+        // pointers:
+
+        while (left < n && right < m) {
+            if (arr1[left] <= arr2[right]) {
+                arr3[index] = arr1[left];
+                left++;
+                index++;
+            } else {
+                arr3[index] = arr2[right];
+                right++;
+                index++;
             }
+        }
 
-            // If there was a greater element
-            if (j != n1 - 2 || last > arr2[i]) {
-                arr1[j + 1] = arr2[i];
-                arr2[i] = last;
+        // If right pointer reaches the end:
+        while (left < n) {
+            arr3[index++] = arr1[left++];
+        }
+
+        // If left pointer reaches the end:
+        while (right < m) {
+            arr3[index++] = arr2[right++];
+        }
+
+        // Fill back the elements from arr3[]
+        // to arr1[] and arr2[]:
+        for (int i = 0; i < n + m; i++) {
+            if (i < n) {
+                arr1[i] = arr3[i];
+            } else {
+                arr2[i - n] = arr3[i];
             }
         }
     }
 
     public static void main(String[] args) {
-        int arr1[] = { 1, 4, 8, 10 };
-        int arr2[] = { 2, 3, 9 };
-
-        mergeArrays(arr1, arr2);
-
-        System.out.println("Merged array 1:");
-        for (int num : arr1) {
-            System.out.print(num + " ");
+        long[] arr1 = { 1, 4, 8, 10 };
+        long[] arr2 = { 2, 3, 9 };
+        int n = 4, m = 3;
+        merge(arr1, arr2, n, m);
+        System.out.println("The merged arrays are:");
+        System.out.print("arr1[] = ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr1[i] + " ");
         }
-
-        System.out.println("\nMerged array 2:");
-        for (int num : arr2) {
-            System.out.print(num + " ");
+        System.out.print("\narr2[] = ");
+        for (int i = 0; i < m; i++) {
+            System.out.print(arr2[i] + " ");
         }
+        System.out.println();
     }
+
 }
