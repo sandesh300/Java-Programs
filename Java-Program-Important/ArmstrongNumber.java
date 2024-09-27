@@ -1,41 +1,23 @@
+// Program to print the ArmStrong Number
 
 public class ArmstrongNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-     
-		int no=1634;
-		int t1=no;
-		int length=0;
-		while(t1!=0)
-		{
-			length=length+1;
-			t1=t1/10;
+
+		int no = 153;
+		int temp = no;
+		int result = 0, rem;
+
+		while (temp > 0) {
+			rem = temp % 10;
+			result = result + (rem * rem * rem);
+			temp = temp / 10;
 		}
-		
-		
-		int t2=no;
-		int arm=0;
-		int rem;
-		while(t2!=0)
-		{
-			int mult=1;
-			rem=t2%10;
-		for(int i=1;i<=length;i++)
-		{
-			mult=mult*rem;
-		}
-		arm=arm+mult;
-		t2=t2/10;
-		}
-		if(arm==no)
-		{
-			System.out.println("it is an Armstrong");
-		}
-		else
-		{
-			System.out.println("It is not Armstrong");
+
+		if (no == result) {
+			System.out.println(no + " is an Armstrong number");
+		} else {
+			System.out.println(no + " is not an Armstrong number");
 		}
 	}
-
 }
