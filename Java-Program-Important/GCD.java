@@ -1,4 +1,5 @@
-// 
+// find the Greatest Common Divisor (GCD)
+
 public class GCD {
 	public static void main(String[] args) {
 		int n1 = 10;
@@ -12,7 +13,9 @@ public class GCD {
 			}
 
 		}
-		System.out.println(n2);
+		System.out.println("GCD is = " + n2);
 	}
 
 }
+
+// output = GCD is = 5
