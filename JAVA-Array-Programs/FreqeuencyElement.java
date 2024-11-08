@@ -1,5 +1,6 @@
+// write the program to find frequency of elements.
+
 import java.util.Arrays;
-import java.util.Scanner;
 public class FreqeuencyElement 
 {	
  public static void main(String[] args) {
