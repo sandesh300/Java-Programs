@@ -1,4 +1,5 @@
-
+// write the program to print even and odd number from the array.
+ 
 public class EvenOddNumber {
 public static void main(String[] args) {
 	
