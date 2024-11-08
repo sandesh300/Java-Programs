@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java-8-Programs"/>
+	<classpathentry kind="src" path="JAVA-Array-Programs"/>
+	<classpathentry kind="src" path="JAVA-LinkedList-Programs"/>
+	<classpathentry kind="src" path="JAVA-Matrix-Programs"/>
+	<classpathentry kind="src" path="Java-Program-Important"/>
+	<classpathentry kind="src" path="JAVA-Searching&amp;Sorting"/>
+	<classpathentry kind="src" path="JAVA-Star-Pattern"/>
+	<classpathentry kind="src" path="JAVA-String-Programs"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

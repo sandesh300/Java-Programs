@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	double h=10.56;
 	double b=4.45;
 	
-	System.out.println("area of triangle=   " +area(h, b));
+	System.out.println("area of triangle= " +area(h, b));
 }
 }

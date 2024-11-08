@@ -28,11 +28,11 @@ public class CopyElement {
 		char arr1[] = new char[] { 'S', 'A', 'N', 'D', 'E', 'S', 'H' };
 		char arr2[] = arr1.clone();
 
-		System.out.println("Elements of []: ");
+		System.out.println("Elements of arr1[]: ");
 		for (int i = 0; i < arr1.length; i++)
 			System.out.print(arr1[i] + " ");
 
-		System.out.println("\n\nElements of nArray[]: ");
+		System.out.println("\n\nElements of arr2[]: ");
 		for (int i = 0; i < arr2.length; i++)
 			System.out.print(arr2[i] + " ");
 
