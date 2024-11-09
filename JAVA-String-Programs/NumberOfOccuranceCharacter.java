@@ -1,4 +1,4 @@
-// //Find the number of occurrences of a character in a String?
+// //Find the number of occurrences of a character in a String.
 
 public class NumberOfOccuranceCharacter {
 	public static int countOccurrences(String str, char targetChar) {
@@ -18,11 +18,10 @@ public class NumberOfOccuranceCharacter {
 		String str = "Hello, world!";
 		char targetChar = 'l';
 		int occurrences = countOccurrences(str, targetChar);
-		System.out.println("Number of occurrences of '" + targetChar + "' in the string: " + occurrences); // Number of
-																											// occurrences
-																											// of 'l' in
-																											// the
-																											// string: 3
+		System.out.println("Number of occurrences of '" + targetChar + "' in the string: " + occurrences);
 
 	}
 }
+
+
+// output - Number of occurrences of 'l' in the string: 3
