@@ -12,4 +12,4 @@ public class CountCharacters {
 	}
 }
 
-// op - The characters in string is= 16
+// output - The characters in string is= 16
