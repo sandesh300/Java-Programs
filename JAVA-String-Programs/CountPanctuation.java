@@ -1,3 +1,4 @@
+// Write the code to count the panctuation from the given string.
 
 public class CountPanctuation {
 	public static void main(String[] args) {
