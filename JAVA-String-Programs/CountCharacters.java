@@ -1,3 +1,4 @@
+// Write a program to count the characters from the string.
 
 public class CountCharacters {
 	public static void main(String[] args) {
