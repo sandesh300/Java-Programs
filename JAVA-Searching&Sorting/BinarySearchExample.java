@@ -1,3 +1,4 @@
+// Binary-search algorithm.
 
 public class BinarySearchExample 
 {
