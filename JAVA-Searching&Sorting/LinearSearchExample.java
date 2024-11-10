@@ -1,3 +1,4 @@
+// Linear-Search program.
 
 public class LinearSearchExample {
 
