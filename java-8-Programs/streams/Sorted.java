@@ -1,9 +1,10 @@
 package streams;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Sorted {
- public static void main(String[] args) {
+	public static void main(String[] args) {
 		ArrayList<Integer> arr = new ArrayList<>();
 		arr.add(0);
 		arr.add(10);
@@ -13,11 +14,14 @@ public class Sorted {
 		arr.add(30);
 		arr.add(40);
 		arr.add(50);
-		
+
 		System.out.println(arr);
-		
+
 		List<Integer> l2 = arr.stream().sorted().collect(Collectors.toList());
-		
+
 		System.out.println(l2);
+	}
 }
-}
+
+// [0, 10, 60, 25, 20, 30, 40, 50]
+// [0, 10, 20, 25, 30, 40, 50, 60]
