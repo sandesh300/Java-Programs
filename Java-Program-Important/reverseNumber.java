@@ -1,19 +1,19 @@
+// Program to reverse the number.
 
-public class reverseNumber {
+public class ReverseNumber {
 public static void main(String[] args) {
 	
-	int num=12345;
-	int reverse=0;
-	int remainder;
+	int num = 12345;
+	int reverse = 0;
+	int rem;
 	
-   while(num!=0)
+   while(num > 0)
 	
-	   //for(;num!=0;)
 	{
-		remainder=num%10;
-		reverse=reverse*10+remainder;
-		num=num/10;
+		rem = num % 10;
+		reverse = reverse * 10 + rem;
+		num = num / 10;
 	}
-	System.out.println("The reversed number is "+reverse);
+	System.out.println("The reversed number is: " + reverse);  //The reversed number is: 54321
 }
 }
