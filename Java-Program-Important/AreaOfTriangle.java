@@ -3,8 +3,8 @@
 public class AreaOfTriangle {
 
 	public static double areaTriangle(double height, double breadth) {
-		return (height * breadth / 2);
 
+		return (height * breadth / 2);
 	}
 
 	public static void main(String[] args) {
@@ -12,15 +12,16 @@ public class AreaOfTriangle {
 		double height = 10.56;
 		double breadth = 14.45;
 
-		System.out.println("area of triangle= " + areaTriangle(height, breadth));
+		System.out.println("area of triangle= " + areaTriangle(height, breadth)); // area of triangle= 76.296
 	}
 }
 
 /*
- * double breadth = 20.5;
- * double height = 10.5;
- * 
- * double area=(height * breadth) / 2;
- * 
- * System.out.println("area of triangle is = " + area);
+  double breadth = 20.5;
+  double height = 10.5;
+  
+  double area=(height * breadth) / 2;
+  
+  System.out.println("area of triangle is = " + area); // area of triangle= 107.625
+
  */

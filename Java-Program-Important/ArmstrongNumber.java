@@ -21,3 +21,5 @@ public class ArmstrongNumber {
 		}
 	}
 }
+
+// output = 153 is an Armstrong number

@@ -25,3 +25,5 @@ public class ArmstrongNumberMethod {
         return result == number;
     }
 }
+
+// output = 153 is an Armstrong number
