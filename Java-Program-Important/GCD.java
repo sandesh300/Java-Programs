@@ -1,4 +1,4 @@
-// find the Greatest Common Divisor (GCD)
+// Program to print the Greatest Common Divisor (GCD).
 
 public class GCD {
 	public static void main(String[] args) {
@@ -13,9 +13,9 @@ public class GCD {
 			}
 
 		}
-		System.out.println("GCD is = " + n2);
+		System.out.println("GCD is: " + n2);
 	}
 
 }
 
-// output = GCD is = 5
+// output = GCD is: 5
