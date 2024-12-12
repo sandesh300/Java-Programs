@@ -43,4 +43,4 @@ public class SubSetChecker {
     }
 }
 
-// op- arr2 is a subset of arr1
+// output = arr2 is a subset of arr1
