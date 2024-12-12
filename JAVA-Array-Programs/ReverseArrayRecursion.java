@@ -18,6 +18,6 @@ public class ReverseArrayRecursion {
         int arr[] = { 5, 4, 3, 2, 1 };
 
         reverseArray(arr, 0, n - 1);  
-        System.out.println(Arrays.toString(arr));  
+        System.out.println(Arrays.toString(arr));  // [5, 4, 3, 2, 1]
     }
 }
