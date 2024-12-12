@@ -1,4 +1,4 @@
-// Union oftwo array
+// Union of two array
 
 import java.util.Arrays;
 
