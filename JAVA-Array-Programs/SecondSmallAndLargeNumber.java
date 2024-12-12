@@ -37,3 +37,8 @@ public class SecondSmallAndLargeNumber {
 
     }
 }
+
+/*
+Second Largest number is = 5
+Second Smallest number is = 2
+ */
