@@ -18,6 +18,10 @@ public class MissingNum {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 4, 5, 6 };
         int missingNumber = findMissingNumber(arr);
-        System.out.println("The missing number is: " + missingNumber);
+        System.out.println("The missing number is: " + missingNumber); // The missing number is: 3
     }
 }
+
+/*
+ note : if array starting from the 0 then change : int n = arr.length;
+ */
