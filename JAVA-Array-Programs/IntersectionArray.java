@@ -1,11 +1,10 @@
-// 10. find intersection of two array
+// Program to find intersection of two arrays.
 
 import java.util.Arrays;
 
 public class IntersectionArray {
 
     static int[] findIntersection(int[] arr1, int[] arr2) {
-        // Sort both arrays
         Arrays.sort(arr1);
         Arrays.sort(arr2);
 
