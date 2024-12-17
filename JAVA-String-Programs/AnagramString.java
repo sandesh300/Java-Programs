@@ -1,4 +1,4 @@
-// Write the program to check the given string is anagaram or not.
+// Program to check the given string is anagram or not.
 
 import java.util.Arrays;
 
