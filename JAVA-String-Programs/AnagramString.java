@@ -10,7 +10,7 @@ public class AnagramString {
 		str1 = str1.toLowerCase();
 		str2 = str2.toLowerCase();
 
-		if (str1.length() != str2.length()) {	
+		if (str1.length() != str2.length()) {
 			System.out.println("String not a anagram");
 		} else {
 			char[] string1 = str1.toCharArray();
