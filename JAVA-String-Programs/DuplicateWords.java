@@ -1,3 +1,4 @@
+// Program to print the duplicate word from the string.
 
 public class DuplicateWords {
 	public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class DuplicateWords {
 		str = str.toLowerCase();
 		String words[] = str.split(" ");
 
-		System.out.println("Duplicate words in a given String= ");
+		System.out.println("Duplicate words in a given String: ");
 
 		for (int i = 0; i < words.length; i++) {
 			count = 1;
@@ -24,4 +25,4 @@ public class DuplicateWords {
 	}
 }
 
-// op - Duplicate words in a given String= big, black
+// op - Duplicate words in a given String: big, black
