@@ -1,11 +1,12 @@
+// Program to print the frequency of characters.
 
 public class FrequencyCharacter {
 	public static void main(String[] args) {
 
-		String str = "Picture Perfect";
+		String str = "Sandesh Bhujbal";
 		str = str.toLowerCase();
 
-		int freq[] = new int[str.length()]; // to store the frequencies of characters.
+		int freq[] = new int[str.length()]; 
 
 		char string[] = str.toCharArray();
 
@@ -14,8 +15,7 @@ public class FrequencyCharacter {
 			for (int j = i + 1; j < str.length(); j++) {
 				if (string[i] == string[j]) {
 					freq[i]++;
-					string[j] = 'O'; // capital O, to mark characters that have already been counted for frequency
-										// calculation
+					string[j] = 'O'; // capital O, to mark characters that have already been counted for frequency calculation
 				}
 			}
 		}
@@ -30,3 +30,17 @@ public class FrequencyCharacter {
 
 	}
 }
+
+/*
+Character and their frequencies = 
+s 2
+a 2
+n 1
+d 1
+e 1
+h 2
+b 2
+u 1
+j 1
+l 1
+*/

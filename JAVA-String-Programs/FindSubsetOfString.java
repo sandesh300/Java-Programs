@@ -22,7 +22,7 @@ public class FindSubsetOfString {
 }
 
 /*
- The Subset of Strings= 
+The Subset of String: 
 S       
 Sa      
 San     
