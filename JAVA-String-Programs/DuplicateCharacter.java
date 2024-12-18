@@ -1,3 +1,4 @@
+// Program to print the duplicate characters from the string.
 
 public class DuplicateCharacter {
 	public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class DuplicateCharacter {
 
 		char string[] = str.toCharArray();
 
-		System.out.println("Duplicate character of string = ");
+		System.out.println("Duplicate character of string: ");
 
 		for (int i = 0; i < string.length; i++) {
 			count = 1;
@@ -24,4 +25,4 @@ public class DuplicateCharacter {
 	}
 }
 
-// op - Duplicate character of string = r, e, t, s, i
+// op - Duplicate character of string: r, e, t, s, i
