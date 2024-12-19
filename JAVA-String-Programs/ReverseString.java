@@ -1,3 +1,4 @@
+// Program to reverse the string.
 
 public class ReverseString {
 
@@ -10,8 +11,6 @@ public class ReverseString {
 			reversestr = reversestr + str.charAt(i);
 		}
 
-		System.out.println("Reverse String is = " + reversestr);
+		System.out.println("Reverse String is = " + reversestr);  // Reverse String is = hsednaS
 	}
 }
-
-// op - Reverse String is = hsednaS
