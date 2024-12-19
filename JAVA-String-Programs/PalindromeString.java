@@ -1,3 +1,4 @@
+// Program to check string is palindrome or not.
 
 public class PalindromeString {
    public static void main(String[] args) {
@@ -14,4 +15,4 @@ public class PalindromeString {
       }
    }
 }
-// op = palindrome string
+// op = Palindrome String
