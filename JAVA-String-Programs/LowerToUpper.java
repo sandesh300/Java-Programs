@@ -16,7 +16,7 @@ public class LowerToUpper {
 			}
 
 		}
-		System.out.println("The charaster is = " + newstr);
+		System.out.println("The character is: " + newstr); // The character is: gREAT pOWER
 	}
 
 }

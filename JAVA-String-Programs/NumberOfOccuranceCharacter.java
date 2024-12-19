@@ -1,4 +1,4 @@
-// Find the number of occurrences of a character in a String.
+// Program to print the number of occurrences of a character in a String.
 
 public class NumberOfOccuranceCharacter {
 	public static int countOccurrences(String str, char targetChar) {
