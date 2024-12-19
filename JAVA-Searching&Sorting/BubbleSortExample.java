@@ -1,4 +1,4 @@
-// Bubble Sort algorithm.
+// Bubble Sort algorithm. Time Complexity= 0(n^2)
 
 public class BubbleSortExample {
 
@@ -32,7 +32,11 @@ public class BubbleSortExample {
 	}
 }
 
-// Array before bubble sort= 
-// 30 15 5 2 99 60 70 45 
-// Array after bubble sort= 
-// 2 5 15 30 45 60 70 99 
+/*
+ * 
+ * Array before bubble sort=
+ * 30 15 5 2 99 60 70 45
+ * Array after bubble sort=
+ * 2 5 15 30 45 60 70 99
+ * 
+ */
