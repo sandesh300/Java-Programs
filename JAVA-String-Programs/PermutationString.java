@@ -3,16 +3,14 @@
 public class PermutationString {
 
 	static void printPermutn(String str, String ans) {
-		
-		if (str.length() == 0)    //if the length of the input string str becomes 0, it means that all characters have been used to form a permutation. In this case, it prints the current permutation ans and returns.
-			{
-		    System.out.println(ans + " ");
-		  	return;
-		    }
+
+		if (str.length() == 0) {
+			System.out.println(ans + " ");
+			return;
+		}
 
 		for (int i = 0; i < str.length(); i++) {
 
-			// ith character of str
 			char ch = str.charAt(i);
 
 			// Rest of the string after excluding the ith character
@@ -25,7 +23,16 @@ public class PermutationString {
 	}
 
 	public static void main(String[] args) {
-		String s = "sandy";
+		String s = "sandesh";
 		printPermutn(s, "");
 	}
 }
+
+/*
+ab
+ac
+ba
+bc
+ca
+cb
+ */
