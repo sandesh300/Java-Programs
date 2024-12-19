@@ -23,7 +23,7 @@ public class PermutationString {
 	}
 
 	public static void main(String[] args) {
-		String s = "sandesh";
+		String s = "abc";
 		printPermutn(s, "");
 	}
 }
