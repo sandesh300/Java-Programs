@@ -1,7 +1,7 @@
-// Binary-search algorithm.
+// Binary-search algorithm.Time Complexicity = 0(log n)
 
 public class BinarySearchExample {
-	public static int BinarySearch(int arr[], int first, int last, int key) {
+	public static int binarySearch(int arr[], int first, int last, int key) {
 
 		if (last >= first) {
 			int mid = first + (last - first) / 2;
@@ -9,9 +9,9 @@ public class BinarySearchExample {
 				return mid;
 			}
 			if (arr[mid] > key) {
-				return BinarySearch(arr, first, mid - 1, key);
+				return binarySearch(arr, first, mid - 1, key);
 			} else {
-				return BinarySearch(arr, mid + 1, last, key);
+				return binarySearch(arr, mid + 1, last, key);
 			}
 		}
 		return -1;
@@ -22,16 +22,15 @@ public class BinarySearchExample {
 
 		int key = 60;
 		int last = arr.length - 1;
-		int result = BinarySearch(arr, 0, last, key);
+		int result = binarySearch(arr, 0, last, key);
 
 		if (result == -1) {
 			System.out.println("element is not present");
-
 		} else {
-			System.out.println("Element present at location= " + result);
+			System.out.println("Element present at index: " + result);
 		}
 
 	}
 }
 
-// output - Element present at location= 5
+// output - Element present at index: 5
