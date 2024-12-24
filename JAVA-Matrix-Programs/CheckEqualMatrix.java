@@ -1,3 +1,4 @@
+// Program to check whether two matrices are equal or not.
 
 public class CheckEqualMatrix {
 	public static void main(String[] args) {
@@ -32,3 +33,5 @@ public class CheckEqualMatrix {
 		}
 	}
 }
+
+// output - matrices are equal
