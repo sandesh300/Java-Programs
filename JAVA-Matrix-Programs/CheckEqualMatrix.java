@@ -34,4 +34,4 @@ public class CheckEqualMatrix {
 	}
 }
 
-// output - matrices are equal
+// output - matrices are equal 
