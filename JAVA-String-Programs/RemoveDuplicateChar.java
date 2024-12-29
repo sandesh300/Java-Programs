@@ -34,3 +34,6 @@ public class RemoveDuplicateChar {
 }
 
 // The String after removing all the duplicate characters is: bca
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
