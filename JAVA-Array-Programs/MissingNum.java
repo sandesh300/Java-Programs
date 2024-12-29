@@ -11,7 +11,7 @@ public class MissingNum {
             arraySum = arraySum + arr[i];
         }
 
-        // The missing number is the difference between the total sum and the array sum
+        // The missing number is the difference between the total sum and the    array sum
         return totalSum - arraySum;
     }
 
