@@ -31,3 +31,5 @@ public class CheckSortedArray {
     }
 }
 
+// Time Complexity: O(n), where n is the number of elements in the array.
+// Space Complexity: O(1).
