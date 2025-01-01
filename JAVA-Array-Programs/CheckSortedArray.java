@@ -11,7 +11,23 @@ Input: N = 5, array[] = {5,4,6,7,8}
 Output: False.
  */
 
-
 public class CheckSortedArray {
-    
+
+    static boolean isSorted(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < arr[i - 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = { 1, 2, 3, 4, 5 };
+        System.out.println(isSorted(arr1)); // true
+
+        int[] arr2 = { 5, 4, 6, 7, 8 };
+        System.out.println(isSorted(arr2)); // false
+    }
 }
+
