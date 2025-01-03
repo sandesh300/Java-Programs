@@ -18,3 +18,5 @@ public class DuplicateArray {
 }
 
 // output = Displaying duplicate array elemnts= 2, 3, 7, 8
+// Time Complexity: O(n^2), where n is the number of elements in the array.
+// Space Complexity: O(1).
