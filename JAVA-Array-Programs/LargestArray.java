@@ -13,3 +13,6 @@ public class LargestArray {
 		System.out.println("largest: " + max); // largest: 77
 	}
 }
+
+// Time Complexity: O(n), where n is the number of elements in the array.
+// Space Complexity: O(1).
