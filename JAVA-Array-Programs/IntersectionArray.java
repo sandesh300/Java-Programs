@@ -45,3 +45,5 @@ public class IntersectionArray {
 }
 
 // output = Intersection of arrays: [3, 4, 5]
+// Time Complexity: O(n * log(n) + m * log(m)), where n and m are the number of elements in the two arrays.
+// Space Complexity: O(min(n, m)), where n and m are the number of elements in the two arrays.
