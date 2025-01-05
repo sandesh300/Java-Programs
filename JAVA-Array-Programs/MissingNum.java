@@ -24,4 +24,8 @@ public class MissingNum {
 
 /*
  note : if array starting from the 0 then change : int n = arr.length;
+ 
+ Time Complexity: O(n), where n is the number of elements in the array.
+ Space Complexity: O(1).
+ 
  */
