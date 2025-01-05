@@ -44,3 +44,11 @@ public class MinMaxElement {
         System.out.println("Maximum element: " + minMax[1]);
     }
 }
+
+/* 
+Output:
+Minimum element: 1
+Maximum element: 3000
+Time Complexity: O(n), where n is the number of elements in the array.
+Space Complexity: O(log n).
+*/
