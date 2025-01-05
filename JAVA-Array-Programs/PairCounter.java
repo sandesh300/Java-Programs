@@ -43,4 +43,6 @@ public class PairCounter {
     }
 }
 
-// op = Number of pairs with sum 6: 2
+// output = Number of pairs with sum 6: 2
+// Time Complexity: O(n log n), where n is the number of elements in the array.
+// Space Complexity: O(1).
