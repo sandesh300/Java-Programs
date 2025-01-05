@@ -67,3 +67,10 @@ public class MergeTwoArrayWithoutSpace {
     }
 
 }
+
+// Output: The merged arrays are:
+// arr1[] = 1 2 3 4
+// arr2[] = 8 9 10
+
+// Time Complexity: O(n + m), where n and m are the number of elements in the arrays.
+// Space Complexity: O(1).
