@@ -37,5 +37,9 @@ public class NegativePositiveSort {
     }
 }
 
-// output - Original array: [-12, 11, -13, -5, 6, -7, 5, -3, -6]
-// Rearranged array: [-12, -6, -13, -5, -3, -7, 5, 6, 11]
+/* 
+output - Original array: [-12, 11, -13, -5, 6, -7, 5, -3, -6]
+Rearranged array: [-12, -6, -13, -5, -3, -7, 5, 6, 11]
+Time Complexity: O(n), where n is the number of elements in the array.
+Space Complexity: O(1).
+*/
