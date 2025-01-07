@@ -16,4 +16,7 @@ public class SortArraySortMethod {
 /*
  originl array = [11, 22, 99, 56, 54, 34, 4] 
  Sorted arrray  =  [4, 11, 22, 34, 54, 56, 99]
+
+Time Complexity: O(n log n) for sorting the array, where n is the number of elements in the array.
+Space Complexity: O(1).
  */
