@@ -26,4 +26,7 @@ displaying an orginal array=
 
 displaying an reverse array= 
 5 4 3 2 1 
+
+Time Complexity: O(n), where n is the number of elements in the array.
+Space Complexity: O(1).
  */
