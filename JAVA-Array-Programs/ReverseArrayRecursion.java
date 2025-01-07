@@ -21,3 +21,8 @@ public class ReverseArrayRecursion {
         System.out.println(Arrays.toString(arr));  // [5, 4, 3, 2, 1]
     }
 }
+
+/*
+Time Complexity: O(n), where n is the number of elements in the array.
+Space Complexity: O(n) for the recursive call stack.
+ */
