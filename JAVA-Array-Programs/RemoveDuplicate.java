@@ -53,4 +53,7 @@ public class RemoveDuplicate {
 /*
 Array with duplicates: [1, 2, 2, 3, 4, 4, 5]
 Array without duplicates: [1, 2, 3, 4, 5]
+
+Time Complexity: O(n log n) for sorting the array, where n is the number of elements in the array.
+Space Complexity: O(n) for the new array without duplicates.
 */
