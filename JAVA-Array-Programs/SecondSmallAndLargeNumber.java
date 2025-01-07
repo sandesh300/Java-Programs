@@ -41,4 +41,7 @@ public class SecondSmallAndLargeNumber {
 /*
 Second Largest number is = 5
 Second Smallest number is = 2
+
+Time Complexity: O(n^2), where n is the number of elements in the array.
+Space Complexity: O(1).
  */
