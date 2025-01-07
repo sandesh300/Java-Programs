@@ -14,3 +14,8 @@ public class SmallestArray {
 		System.out.println("smallest: " + min);  // smallest: 11
 	}
 }
+
+/*
+Time Complexity: O(n), where n is the number of elements in the array.
+Space Complexity: O(1).
+ */
