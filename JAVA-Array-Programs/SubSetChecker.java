@@ -44,3 +44,5 @@ public class SubSetChecker {
 }
 
 // output = arr2 is a subset of arr1
+// Time Complexity: O(n log n) for sorting the arrays, where n is the number of elements in the arrays.
+// Space Complexity: O(1).
