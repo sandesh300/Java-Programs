@@ -38,3 +38,5 @@ public class UnionArray {
 }
 
 // Union of arrays: 1 2 3 4 5 6
+// Time Complexity: O((n + m) log(n + m)) for sorting the merged array, where n and m are the number of elements in the two arrays.
+// Space Complexity: O(n + m) for storing the merged array.
