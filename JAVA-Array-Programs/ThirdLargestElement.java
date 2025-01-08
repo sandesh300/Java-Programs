@@ -23,3 +23,6 @@ public class ThirdLargestElement {
 
 	}
 }
+
+// Time Complexity: O(n^2) for sorting the array, where n is the number of elements in the array.
+// Space Complexity: O(1).
