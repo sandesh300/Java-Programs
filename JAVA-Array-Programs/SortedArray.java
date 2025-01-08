@@ -30,4 +30,7 @@ public class SortedArray {
 /*
 sorted array in Ascending order: 
 21 34 45 223 667 
+
+Time Complexity: O(n^2) for sorting the array, where n is the number of elements in the array.
+Space Complexity: O(1).
  */
