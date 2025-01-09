@@ -59,3 +59,5 @@ sh
 h
 h
  */
+// Time Complexity: O(n^2) where n is the length of the string.
+// Space Complexity: O(n^2) for storing the substring array.
