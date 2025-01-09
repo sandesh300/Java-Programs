@@ -26,3 +26,5 @@ public class DuplicateWords {
 }
 
 // op - Duplicate words in a given String: big, black
+// Time Complexity: O(n^2) where n is the length of the string.
+// Space Complexity: O(n) for storing the words array.
