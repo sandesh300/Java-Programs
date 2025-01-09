@@ -26,3 +26,5 @@ public class DuplicateCharacter {
 }
 
 // op - Duplicate character of string: r, e, t, s, i
+// Time Complexity: O(n^2) where n is the length of the string.
+// Space Complexity: O(n) for storing the character array.
