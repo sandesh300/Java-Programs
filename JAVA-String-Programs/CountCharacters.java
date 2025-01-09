@@ -14,3 +14,5 @@ public class CountCharacters {
 }
 
 // output - The characters in string is= 16
+// Time Complexity: O(n) where n is the length of the string.
+// Space Complexity: O(1) as we are using a constant space.
