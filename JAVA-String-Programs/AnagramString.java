@@ -29,3 +29,5 @@ public class AnagramString {
 }
 
 // output - String is anagram
+// Time Complexity: O(n log n) for sorting the strings, where n is the length of the strings.
+// Space Complexity: O(n) for storing the character arrays.
