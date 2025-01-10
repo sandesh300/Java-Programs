@@ -25,3 +25,5 @@ public class NumberOfOccuranceCharacter {
 
 
 // output - Number of occurrences of 'l' in the string: 3
+// Time Complexity: O(n)
+// Space Complexity: O(1)
