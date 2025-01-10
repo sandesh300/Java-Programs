@@ -44,4 +44,7 @@ public class LongestSubString {
 
 /*
 The length of the longest substring without repeating characters is: 3
+
+Time Complexity: O(n^3)
+Space Complexity: O(n)
  */
