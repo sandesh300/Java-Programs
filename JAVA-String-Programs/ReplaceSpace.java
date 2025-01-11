@@ -12,3 +12,5 @@ public class ReplaceSpace {
 }
 
 // op - String after replace space= Once+upon+a+time+in+mumbai
+// Time Complexity: O(n)
+// Space Complexity: O(1)
