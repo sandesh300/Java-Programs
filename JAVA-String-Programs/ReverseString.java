@@ -14,3 +14,6 @@ public class ReverseString {
 		System.out.println("Reverse String is = " + reversestr);  // Reverse String is = hsednaS
 	}
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
