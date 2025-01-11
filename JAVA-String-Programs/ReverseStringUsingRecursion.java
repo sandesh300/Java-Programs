@@ -19,3 +19,6 @@ public class ReverseStringUsingRecursion {
 }
 
 // op = The reversed string is= loohcs ot gniog ma I
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
