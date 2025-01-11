@@ -12,3 +12,5 @@ public class RemoveWhitespace {
 }
 
 // op - String after the removing white spaces== MyNAmeisSandesh.
+// Time Complexity: O(n)
+// Space Complexity: O(1)
