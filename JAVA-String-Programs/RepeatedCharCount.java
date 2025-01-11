@@ -40,3 +40,5 @@ public class RepeatedCharCount {
 /*
  * Number of repeated characters: 6
  */
+// Time Complexity: O(n)
+// Space Complexity: O(1)
