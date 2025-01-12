@@ -25,3 +25,6 @@ public class VowelsANDConsonant {
 Vovels are 8
 consonant are 18
  */
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
