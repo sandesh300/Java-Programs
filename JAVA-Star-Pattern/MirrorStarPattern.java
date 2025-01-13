@@ -26,3 +26,6 @@ public class MirrorStarPattern {
 
 
  */
+
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
