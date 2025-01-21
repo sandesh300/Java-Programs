@@ -19,3 +19,11 @@ public class SearchElement {
             System.out.println("Element not found in the array");
     }
 }
+
+/*
+Output: Element found in the array
+
+time complexity: O(n)
+space complexity: O(1)
+
+ */
