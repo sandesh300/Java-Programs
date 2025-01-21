@@ -32,27 +32,31 @@ public class AverageNumber {
 }
 
 /*
-Enter the size of Array: 
-5
-enter the elements: 
-10
-20
-30
-40
-50
-sum of number: 150
-average of number: 30.0
-*/
+ 
+ Enter the size of Array:
+  5
+  enter the elements:
+  10
+  20
+  30
+  40
+  50
+  sum of number: 150
+  average of number: 30.0
+ 
+  */
 
 /*
-int[] array= {10,20,30,40,50,60};
-int length=array.length;
-int sum=0;
 
-for(int i=0; i<array.length; i++)
-{
-sum+=array[i];
-}
-double average=sum/length;
-System.out.println("average of number "+average);
-*/
+  int[] array= {10,20,30,40,50,60};
+  int length=array.length;
+  int sum=0;
+  
+  for(int i=0; i<array.length; i++)
+    {
+      sum+=array[i];
+    }
+  double average=sum/length;
+  System.out.println("average of number "+average);
+
+  */
