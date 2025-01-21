@@ -33,3 +33,16 @@ public class CheckSortedArray {
 
 // Time Complexity: O(n), where n is the number of elements in the array.
 // Space Complexity: O(1).
+
+/*
+
+static boolean isSorted(int[] arr) {
+    for (int i = 1; i < arr.length; i++) {
+        if (arr[i] < arr[i - 1]) { // Check if the current element is smaller than the previous one.
+            return false; // If true, return false immediately.
+        }
+    }
+    return true; // If the loop completes, return true (array is sorted).
+}
+
+*/
