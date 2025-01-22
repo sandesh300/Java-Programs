@@ -6,10 +6,10 @@ public class FreqeuencyElement {
 	public static void main(String[] args) {
 		int[] arr = { 1, 3, 5, 7, 9, 1, 3, 3, 4, 9 };
 		int n = arr.length;
-		countfreq(arr, n);
+		countFreq(arr, n);
 	}
 
-	public static void countfreq(int[] arr, int n) {
+	public static void countFreq(int[] arr, int n) {
 		boolean[] visited = new boolean[n];
 		Arrays.fill(visited, false);
 
