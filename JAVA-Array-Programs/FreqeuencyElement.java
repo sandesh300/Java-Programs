@@ -25,19 +25,19 @@ public class FreqeuencyElement {
 
 				}
 			}
-			System.out.println(arr[i] + " " + count);
+			System.out.println(arr[i] + ": " + count);
 		}
 	}
 }
 
 /*
 output =
-1 2
-3 3
-5 1
-7 1
-9 2
-4 1
+1: 2
+3: 3
+5: 1
+7: 1
+9: 2
+4: 1
  */
 
  // Time Complexity: O(n^2), where n is the number of elements in the array.
