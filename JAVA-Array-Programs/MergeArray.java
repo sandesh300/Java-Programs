@@ -7,7 +7,7 @@ public class MergeArray {
         int[] mergedArray = mergeArray(a, b);
 
         for (int i = 0; i < mergedArray.length; i++) {
-            System.out.print(mergedArray[i] + " ");  // 1 2 3 4 4 16 1 2 3 22 
+            System.out.print(mergedArray[i] + ", ");  // 1, 2, 3, 4, 4, 16, 1, 2, 3, 22 
         }
     }
 
