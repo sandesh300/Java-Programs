@@ -1,4 +1,4 @@
-//  move all the negative numbers to begining and positive number to end in array.
+//  Move all the negative numbers to begining and positive number to end in array.
 
 import java.util.Arrays;
 
