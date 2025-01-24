@@ -1,4 +1,4 @@
-// write the program to find frequency of elements.
+// Write the program to find frequency of elements.
 
 import java.util.Arrays;
 
